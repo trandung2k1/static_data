@@ -13,7 +13,7 @@ document.addEventListener(
         }
         //C2
         async function deleteItem(id) {
-            const res = await fetch(`http://localhost:4000/${id}`, {
+            const res = await fetch(`http://localhost:5000/${id}`, {
                 method: 'DELETE',
             });
             return await res.json();
