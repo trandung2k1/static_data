@@ -6,7 +6,7 @@ document.addEventListener(
         //C1
         async function handleDelete(ids) {
             for (const id of ids) {
-                const res = await fetch(`http://localhost:4000/${id}`, {
+                const res = await fetch(`http://localhost:5000/${id}`, {
                     method: 'DELETE',
                 });
             }
@@ -26,7 +26,9 @@ document.addEventListener(
             let data = [];
             for await (const id of ids) {
                 const item = await deleteItem(id);
-                data.push(item);
+                if (item) {
+                    alert('Delete item');
+                }
             }
             console.log(data);
         };
