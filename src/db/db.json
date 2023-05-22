@@ -1,1 +1,8 @@
-{"todos":[{"id":1,"title":"Clean room","completed":true},{"id":2,"title":"Read book","completed":true}]}
+{
+    "todos": [
+        { "id": 1, "title": "Clean room", "completed": true },
+        { "id": 2, "title": "Read book", "completed": true },
+        { "id": 3, "title": "Play game", "completed": true },
+        { "id": 4, "title": "Create api", "completed": true }
+    ]
+}
