@@ -1,4 +1,3 @@
-
 {
     "todos": [
         { "id": 1, "title": "Clean room", "completed": true },
